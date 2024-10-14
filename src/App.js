@@ -2,15 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
-import API_URL from '../api.js';
-
-const movie1 = {
-    "Title": "Avengers: Endgame",
-    "Year": "2019",
-    "imdbID": "tt4154796",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg"
-}
+import API_URL from './api'
 
 
 function App() {
@@ -20,7 +12,7 @@ function App() {
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`)
     const data = await response.json();
-    setMovies(data.Search);
+    console.log(data.Search);
   }
 
   useEffect(() => {
