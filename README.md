@@ -1,3 +1,20 @@
+# Movieland
+
+This project was developed after following the video found here: [React JS Full Course | Build an App and Master React in 1 Hour](https://www.youtube.com/watch?v=b9eMGE7QtTk&t=2652s&ab_channel=JavaScriptMastery)
+
+This video covers the essentials of React and how to implement theses fundamentals into a React app that pulls a movie API. 
+
+Below are samples of the website. 
+
+![Movieland screenshot 1](screenshot1.png)
+![Movieland screenshot 2 with search](screenshot2.png)
+
+## Credit to: 
+
+[Javascript Mastery](https://www.youtube.com/@javascriptmastery) - for the tutorial
+[OMDB API](https://omdbapi.com/) - for the movie API database 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,1 @@
+const API_URL = 'http://www.omdbapi.com?apikey=c032e2d7'
